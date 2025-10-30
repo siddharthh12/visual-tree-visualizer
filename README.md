@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Installation
+Clone this repository:
 
-## Getting Started
+git clone https://github.com/siddharthh12/visual-tree-visualizer
+Install dependencies:
 
-First, run the development server:
 
-```bash
+npm install
+or
+
+yarn install
+Running the App
+Start the development server:
+
+
 npm run dev
-# or
+or
+
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then visit http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usage
+Paste or type JSON in the input panel on the left.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Click Visualize Tree to generate the interactive tree.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Use the Search bar to find and highlight nodes.
 
-## Learn More
+Click the Clear button to reset everything.
 
-To learn more about Next.js, take a look at the following resources:
+Use the theme toggle in the navbar for light/dark mode.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Technologies Used-
+React / Next.js
+Tailwind CSS for styling
+React Flow (for tree visualization)
+TypeScript
+Lucide React (for icons)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Screenshots
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+.
+├── src/components/JsonInput.tsx
+├── src/components/SearchBar.tsx
+├── src/components/TreeVisualizer.tsx
+├── utils/jsonToTree.ts
+├── app/page.tsx
+├── public/
+├── README.md
+└── package.json
+
+Author
+Developed by Siddharth, siddharthtiwari1265@gmail.com
+
