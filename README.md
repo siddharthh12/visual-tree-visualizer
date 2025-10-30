@@ -22,13 +22,9 @@ Then visit http://localhost:3000 in your browser.
 
 Usage
 Paste or type JSON in the input panel on the left.
-
 Click Visualize Tree to generate the interactive tree.
-
 Use the Search bar to find and highlight nodes.
-
 Click the Clear button to reset everything.
-
 Use the theme toggle in the navbar for light/dark mode.
 
 Technologies Used-
